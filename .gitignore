@@ -13,6 +13,9 @@ easy-fs/target/*
 easy-fs-fuse/Cargo.lock
 easy-fs-fuse/target/*
 tools/
+rCore-Tutorial-Code-2023A
+test
+qemu-7.0.0
 pushall.sh
 *.bak
 
