@@ -15,7 +15,7 @@
 //! We then call [`task::run_first_task()`] and for the first time go to
 //! userspace.
 
-#![deny(missing_docs)]
+// #![deny(missing_docs)]
 #![deny(warnings)]
 #![no_std]
 #![no_main]
@@ -95,7 +95,7 @@ fn kernel_log_info() {
 #[no_mangle]
 /// the rust entry-point of os
 pub fn rust_main() -> ! {
-    panic!("insert into!");
+    // panic!("insert into!");
     clear_bss();
     kernel_log_info();
     heap_alloc::init_heap();

@@ -16,6 +16,7 @@ tools/
 rCore-Tutorial-Code-2023A
 test
 qemu-7.0.0
+ci-user
 pushall.sh
 *.bak
 
